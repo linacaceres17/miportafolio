@@ -114,7 +114,7 @@ h1{
 
   .experiencia .columna:hover {
     color: white;
-    background-color:  rgb(106, 12, 141);
+    background-color:  rgb(143, 103, 158);
   }
 
 .experiencia i {
@@ -199,27 +199,10 @@ h1{
     margin: 10px;
   }
   
-  /* Articulos */
-  
-  .articulos {
-    min-height: 500px;
-    padding: 30px;
-  }
-  
-  .articulos .card {
-    width: 80%;
-    max-width: 600px;
-    margin: 20px;
-  }
-  
-  .articulos .card-header {
-    font-weight: bold;
-  }
-  
   /* Testimonios */
   
   .testimonios {
-    padding: 40px 40px 80px 40px;
+    padding: 2px 5px 10px 5px;
   }
   
   .testimonios .carousel {
@@ -227,7 +210,7 @@ h1{
   }
   
   .carousel-item {
-    height: 500px;
+    height: 600px;
   }
   
   .carousel-item .container {
@@ -240,9 +223,8 @@ h1{
   }
   
   .testimonio-imagen {
-    height: 150px;
-    width: 150px;
-    margin: 10px 10px 20px 10px;
+    height: 400px;
+    width: 400x;
   }
   
   .testimonio-texto {
@@ -329,8 +311,8 @@ h1{
   }
   
   .footer-logo {
-    height: 80px;
-    width: 80px;
+    height: 250px;
+    width: 250x;
     margin: 10px;
   }
   
@@ -390,17 +372,6 @@ h1{
   @media screen and (max-width: 767px) {
     .navbar-brand {
       display: none;
-    }
-  }
-  
-  @media screen and (max-width: 800px) {
-    .testimonio-imagen {
-      height: 120px;
-      width: 120px;
-    }
-  
-    .testimonio-texto {
-      font-size: 18px;
     }
   }
   
