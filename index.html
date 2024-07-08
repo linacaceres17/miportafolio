@@ -24,32 +24,32 @@
   </head>
   <body>
     <!--Barra de Navegacion-->
-    <nav class="navbar navbar-expand-md navbar-light">
-      <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar-toggler">
-          <a class="navbar-brand" href="#">
-            <img src="Images/Lina_logo_claro.png" width="110" alt="Logo de la página web" href="#sobre-mi">
-          </a>
-          <ul class="navbar-nav d-flex justify-content-center align-items-center">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#proyectos">Proyectos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#certificaciones">Certificaciones</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contacto">Contacto</a>
-            </li>
-          </ul>
-        </div>
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="Images/Lina_logo_claro.png" width="110" alt="Logo de la página web">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#testimonios">Certificaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#contacto">Contacto</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
       <!-- Seccion Hero -->
       <section class="hero align-items-sm-stretch">
         <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
@@ -193,23 +193,52 @@
       </a>
     </section>
 
-    <!-- Testimonios -->
-    <section id="certificaciones" class="testimonios seccion-clara">
+
+    <section id="testimonios" class="testimonios seccion-clara">
       <h2 class="seccion-titulo">Certificaciones</h2>
-      <h3 class="seccion-descripcion">Estos son algunos certificados que he finalizado</h3>
+      <h3 class="seccion-descripcion">Estos son algunas de las certificaciones que he obtenido recientemente</h3>
       
       <!-- Carrusel -->
       <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="container">
-              <img class="testimonio-imagen" src="Images/certificado.jpg" alt="certificado">
-              </div>
+              <img class="testimonio-imagen" src="Images/Diploma bootcamp.jpg" alt="Foto de Gino">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen" src="Images/curso diseño web responsive.png" alt="Foto de Leonardo">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen" src="Images/certificado powerbi.jpeg" alt="Foto de Nora">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen" src="Images/diploma-db-sql  .png" alt="Foto de Leonardo">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen" src="Images/curso ia.png" alt="Foto de Leonardo">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen" src="Images/curso seo.png" alt="Foto de Leonardo">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen" src="Images/curso compitacion.png" alt="Foto de Leonardo">
             </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="carousel-control-prev-icon" aria-hidden="false"></span>
           <span class="visually-hidden">Anterior</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
@@ -218,6 +247,7 @@
         </button>
       </div>
     </section>
+
 
     <!-- Contacto -->
     <section id="contacto" class="contacto seccion-oscura">
@@ -262,6 +292,5 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  </body>
   </body>
 </html>
